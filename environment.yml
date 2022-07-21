@@ -1,0 +1,16 @@
+name: abm
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - pytorch
+  - torchaudio
+  - torchvision
+  - numpy
+  - pandas
+  - matplotlib
+  - networkx
+  - scikit-learn
+  - scipy
+  - epiweeks

@@ -1,0 +1,301 @@
+ADULT_Upper_Index: 6
+CHILD_Upper_Index: 1
+R: 5.02
+age_groups:
+- AGE_0_19
+- AGE_20_29
+- AGE_30_39
+- AGE_40_49
+- AGE_50_59
+- AGE_60_69
+- AGE_70_79
+- AGE_80
+age_groups_to_ix_dict:
+  AGE_0_19: 0
+  AGE_20_29: 1
+  AGE_30_39: 2
+  AGE_40_49: 3
+  AGE_50_59: 4
+  AGE_60_69: 5
+  AGE_70_79: 6
+  AGE_80: 7
+age_ix_pop_dict:
+  0: 27176
+  1: 15007
+  2: 13037
+  3: 16130
+  4: 20532
+  5: 18263
+  6: 10704
+  7: 7714
+age_ix_prob_list:
+- 0.21138274620225103
+- 0.11672876333004052
+- 0.10140553658517613
+- 0.125463780403382
+- 0.15970380280485055
+- 0.14205486804134937
+- 0.08325879140965908
+- 0.0600017112232913
+age_ix_to_group_dict:
+  0: AGE_0_19
+  1: AGE_20_29
+  2: AGE_30_39
+  3: AGE_40_49
+  4: AGE_50_59
+  5: AGE_60_69
+  6: AGE_70_79
+  7: AGE_80
+app_adoption_rate: 1
+app_on_prob: 0.5
+app_user_agewise_probs_dict:
+  AGE_0_9: 0.09
+  AGE_10_19: 0.8
+  AGE_20_29: 0.97
+  AGE_30_39: 0.96
+  AGE_40_49: 0.94
+  AGE_50_59: 0.86
+  AGE_60_69: 0.7
+  AGE_70_79: 0.48
+  AGE_80: 0.32
+debug: true
+den_will_comply: 1
+file_mode: TEST
+genrerated_params_file_name: generated_params.yaml
+households_sizes_list:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+households_sizes_prob_list:
+- 0.3404992742325125
+- 0.3175985424643815
+- 0.143990614165864
+- 0.11976146407425071
+- 0.04672432112547242
+- 0.03142578393751882
+initialization_input_files:
+  agents_ages_filename: /mas/camera/ayush_backup/safegraph_data/AGE_CSV/25003.csv
+  agents_app_user_parameters_filename: ./Data/Initialization/AgentsAppUserParameters.csv
+  agents_household_sizes_filename: ./Data/Initialization/AgentsHouseholdSizes.csv
+  agents_initial_stages_filename: /mas/camera/ayush_backup/safegraph_data/STAGES_CSV/25003.csv
+  agents_occupations_filename: ./Data/Initialization/AgentsOccupations.csv
+  occupation_nw_parameters_filename: ./Data/Initialization/OccupationNetworkParameters.csv
+  random_nw_parameters_filename: ./Data/Initialization/RandomNetworkParameters.csv
+max_den_contact_days: 7
+num_agents: 128563
+num_runs: 1
+num_stages: 11
+num_steps: 74
+occupation_ix_to_occupations_dict:
+  AGRICULTURE: 0
+  ART: 16
+  CHILD: 20
+  CONSTRUCTION: 3
+  EDUCATION: 14
+  ELDERLY: 19
+  ENTERPRISEMANAGEMENT: 12
+  FINANCEINSURANCE: 9
+  FOOD: 17
+  HEALTHCARE: 15
+  INFORMATION: 8
+  MANUFACTURING: 4
+  MINING: 1
+  OTHER: 18
+  REALESTATERENTAL: 10
+  RETAILTRADE: 6
+  SCIENTIFICTECHNICAL: 11
+  TRANSPORTATION: 7
+  UTILITIES: 2
+  WASTEMANAGEMENT: 13
+  WHOLESALETRADE: 5
+occupations_ix_list:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+- 13
+- 14
+- 15
+- 16
+- 17
+- 18
+- 19
+- 20
+occupations_names_list:
+- AGRICULTURE
+- MINING
+- UTILITIES
+- CONSTRUCTION
+- MANUFACTURING
+- WHOLESALETRADE
+- RETAILTRADE
+- TRANSPORTATION
+- INFORMATION
+- FINANCEINSURANCE
+- REALESTATERENTAL
+- SCIENTIFICTECHNICAL
+- ENTERPRISEMANAGEMENT
+- WASTEMANAGEMENT
+- EDUCATION
+- HEALTHCARE
+- ART
+- FOOD
+- OTHER
+- ELDERLY
+- CHILD
+occupations_sizes_prob_list:
+- 0.002074760790673804
+- 0.0003245727393860931
+- 0.001516673098112025
+- 0.05915129446861781
+- 0.08219465441221938
+- 0.04930452985090788
+- 0.13041196995040874
+- 0.04084346122908182
+- 0.09747122874002898
+- 0.03305945551618415
+- 0.02318190345213374
+- 0.10423168231738673
+- 0.024660222697601267
+- 0.05820471094892911
+- 0.01920667012634072
+- 0.12431866468061546
+- 0.0206622901528962
+- 0.09149063683310935
+- 0.03769061799536675
+occupations_to_ix_dict:
+  0: AGRICULTURE
+  1: MINING
+  2: UTILITIES
+  3: CONSTRUCTION
+  4: MANUFACTURING
+  5: WHOLESALETRADE
+  6: RETAILTRADE
+  7: TRANSPORTATION
+  8: INFORMATION
+  9: FINANCEINSURANCE
+  10: REALESTATERENTAL
+  11: SCIENTIFICTECHNICAL
+  12: ENTERPRISEMANAGEMENT
+  13: WASTEMANAGEMENT
+  14: EDUCATION
+  15: HEALTHCARE
+  16: ART
+  17: FOOD
+  18: OTHER
+  19: ELDERLY
+  20: CHILD
+output_location:
+  agent_outfile: 25003_AgentsData.csv
+  agents_dir: GeneratedAgentsData
+  agents_outfile: 25003_AgentsData.csv
+  disease_dynamics_stages_file_name: disease_dynamics.csv
+  disease_dynamics_transition_times_file_name: disease_dynamics_time_parameters.csv
+  dynamics_dir: Dynamics
+  household_networks_dir: Household
+  households_outfile: HouseholdsData.csv
+  networks_dir: GeneratedNetworks
+  occupation_networks_dir: Occupation
+  parent_dir: Data
+  plots_dir: Plots
+  random_networks_dir: 25003_Random
+  results_dir: ResultsNew
+poc_acceptance_prob: 1.0
+poc_den_inform_prob: 1.0
+poc_quarantine_enter_prob: 1.0
+poc_test_false_positive: 0.0
+poc_test_on_symptoms: true
+poc_test_only_for_den: false
+poc_test_start_date: 0
+poc_test_true_positive: 0.8
+quarantine_break_prob: 0.01
+quarantine_days: 14
+results_file_postfix: NoDenNoQ
+scale_random_interact: 1
+seed: 6666
+stage_ix_pop_dict:
+  0: 128545
+  1: 15
+  2: 3
+  3: 0
+  4: 0
+  5: 0
+  6: 0
+  7: 0
+  8: 0
+  9: 0
+  10: 0
+stage_ix_to_stages_dict:
+  0: SUSCEPTIBLE
+  1: ASYMPTOMATIC
+  2: PRESYMPTOMATIC_MILD
+  3: PRESYMPTOMATIC_SEVERE
+  4: MILD_SYMPTOMS
+  5: SEVERE_SYMPTOMS
+  6: HOSPITALIZED
+  7: CRITICAL_ICU
+  8: DEATH
+  9: HOSPITALIZED_RECOVERING
+  10: RECOVERED
+stages:
+- SUSCEPTIBLE
+- ASYMPTOMATIC
+- PRESYMPTOMATIC_MILD
+- PRESYMPTOMATIC_SEVERE
+- MILD_SYMPTOMS
+- SEVERE_SYMPTOMS
+- HOSPITALIZED
+- CRITICAL_ICU
+- DEATH
+- HOSPITALIZED_RECOVERING
+- RECOVERED
+stages_to_ix_dict:
+  ASYMPTOMATIC: 1
+  CRITICAL_ICU: 7
+  DEATH: 8
+  HOSPITALIZED: 6
+  HOSPITALIZED_RECOVERING: 9
+  MILD_SYMPTOMS: 4
+  PRESYMPTOMATIC_MILD: 2
+  PRESYMPTOMATIC_SEVERE: 3
+  RECOVERED: 10
+  SEVERE_SYMPTOMS: 5
+  SUSCEPTIBLE: 0
+test_false_positive: 0.0
+test_results_dates:
+- 2
+- 3
+- 4
+test_results_dates_probs:
+- 0.3
+- 0.4
+- 0.3
+test_true_positive: 0.9
+test_validity_days: -1
+type: generated
+use_den_logic: false
+use_gpu: false
+use_poc_test_logic: false
+use_quarantine_logic: true
+use_vaccination_logic: false
+vaccine_daily_production: 333
+vaccine_drop_prob_before_second_dose: 0.3
+vaccine_first_dose_effectivness: 0.8
+vaccine_first_dose_kick_in_days: 14
+vaccine_first_dose_priority: true
+vaccine_second_dose_delay: 21
+vaccine_second_dose_effectiveness: 0.95
+vaccine_shelf_life: 2
+vaccine_start_date: 10
