@@ -1,13 +1,14 @@
-# Differentiable Agent-based Epidemiology
+# [AAMAS 2023] Differentiable Agent-based Epidemiology
 
-## Pre-print paper
+## Publication
 
 Implementation of the paper "Differentiable Agent-based Epidemiology."
 
 Authors: Ayush Chopra*, Alexander Rodríguez*, Jayakumar Subramanian, Balaji Krishnamurthy, B. Aditya Prakash, Ramesh Raskar
+
 *Equal contribution
 
-Pre-print: [http://arxiv.org/abs/2207.09714](http://arxiv.org/abs/2207.09714)
+Paper + appendix: [http://arxiv.org/abs/2207.09714](http://arxiv.org/abs/2207.09714)
 
 ## Requirements
 
